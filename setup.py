@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from distutils.core import setup
+#  from distutils.core import setup
+# FIXME: Remove it before sending PR.
+# provides setup.py develop
+from setuptools import setup
 
 long_description = open("README.md").read()
 
